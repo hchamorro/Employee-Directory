@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Smith",
+    "position": "Cook I",
+    "salary": "34,000"
+  },
+  {
+    "id": 2,
+    "name": "Tim Web",
+    "position": "Prep Cook",
+    "salary": "30,000"
+  },
+  {
+    "id": 3,
+    "name": "Sarah Hunt",
+    "position": "Chef",
+    "salary": "72,000"
+  }
+]
