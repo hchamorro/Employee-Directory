@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hchamorro/Employee-Directory/static/css/main.bb84316f.chunk.css",
+    "main.js": "/hchamorro/Employee-Directory/static/js/main.ceaf1625.chunk.js",
+    "main.js.map": "/hchamorro/Employee-Directory/static/js/main.ceaf1625.chunk.js.map",
+    "runtime-main.js": "/hchamorro/Employee-Directory/static/js/runtime-main.3d649452.js",
+    "runtime-main.js.map": "/hchamorro/Employee-Directory/static/js/runtime-main.3d649452.js.map",
+    "static/js/2.dafdd18c.chunk.js": "/hchamorro/Employee-Directory/static/js/2.dafdd18c.chunk.js",
+    "static/js/2.dafdd18c.chunk.js.map": "/hchamorro/Employee-Directory/static/js/2.dafdd18c.chunk.js.map",
+    "index.html": "/hchamorro/Employee-Directory/index.html",
+    "precache-manifest.4e9013f6830c6af5a7c0af89fbbc74e4.js": "/hchamorro/Employee-Directory/precache-manifest.4e9013f6830c6af5a7c0af89fbbc74e4.js",
+    "service-worker.js": "/hchamorro/Employee-Directory/service-worker.js",
+    "static/css/main.bb84316f.chunk.css.map": "/hchamorro/Employee-Directory/static/css/main.bb84316f.chunk.css.map",
+    "static/js/2.dafdd18c.chunk.js.LICENSE.txt": "/hchamorro/Employee-Directory/static/js/2.dafdd18c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d649452.js",
+    "static/js/2.dafdd18c.chunk.js",
+    "static/css/main.bb84316f.chunk.css",
+    "static/js/main.ceaf1625.chunk.js"
+  ]
+}
