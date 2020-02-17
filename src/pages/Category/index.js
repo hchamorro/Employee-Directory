@@ -12,24 +12,46 @@ function Category() {
 
   useEffect(() => {
     setEmployees(EmployeesJSON);
-    console.log(employees);
+    console.log('init set employees', employees);
   }, []);
 
-  const sortAZ = () => {
+  const sortSalary = () => {
     console.log('clicked');
-    let sortEmployees = employees.sort((a, b) => {
-      return a.salary - b.salary;
+
+    const employeeArray = employees.sort((a, b) => {
+      const nameA = a.salary;
+      const nameB = b.salary;
+      let comparison = 0;
+      if (nameA > nameB) {
+        comparison = 1;
+      } else if (nameA < nameB) {
+        comparison = -1;
+      }
+      return comparison;
     });
-    console.log(sortEmployees);
-    // setEmployees(sortEmployees);
+    console.log('numbers are sorted woo', employeeArray);
+    setEmployees(employeeArray);
   };
 
+  const compare = (a, b) => {
+    const nameA = a;
+    const nameB = b;
+    let comparison = 0;
+    if (nameA > nameB) {
+      comparison = 1;
+    } else if (nameA < nameB) {
+      comparison = -1;
+    }
+    return comparison;
+  };
   return (
     <>
       <Title>Employee Directory</Title>
       <NaveBar></NaveBar>
       <Wrapper>
-        <CategoryCard sortAZ={sortAZ}></CategoryCard>
+        <CategoryCard>
+          <button onClick={() => sortSalary()}> Sort by Salary</button>
+        </CategoryCard>
         {employees.map(employee => (
           <Card
             id={employee.id}
@@ -37,7 +59,6 @@ function Category() {
             name={employee.name}
             position={employee.position}
             salary={employee.salary}
-            // removeEmployee={removeEmployee}
           />
         ))}
       </Wrapper>
